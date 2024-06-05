@@ -1,3 +1,38 @@
+
+@media screen and (max-width: 360px) {
+    
+}
+
+
+@media screen and (min-width: 361px) and (max-width: 480px) {
+    
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    
+}
+
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    
+}
+
+@media screen and (min-width: 1441px) {
+   
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,6 +42,7 @@ body {
 
 header {
     background: #d602f1e8;
+    text-align: center;
 }
 
 main {
@@ -21,6 +57,32 @@ footer {
     text-align: center;
 }
 
-head {
-    background: #b60064;
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #d602f1e8;
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-img:hover {
+    transform: scale(1.1);
+}
+
+.responsive-img:not(:hover) {
+    filter: blur(1px);
 }
